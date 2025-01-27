@@ -1,0 +1,114 @@
+/* 1. Мәтін түсі */
+p {
+    color: blue;
+  }
+  
+  /* 2. Фондық түс */
+  body {
+    background-color: lightgray;
+  }
+  
+  /* 3. Әріпті өзгерту */
+  h1, h2, h3, p, button, ul, li, span, a {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* 4. Мәтін өлшемі */
+  h2 {
+    font-size: 24px;
+  }
+  
+  /* 5. Элемент шекаралары */
+  .styled-div {
+    border: 2px solid black;
+  }
+  
+  /* 6. Дөңгелек бұрыштар */
+  button {
+    border-radius: 10px;
+  }
+  
+  /* 7. Элемент ішіндегі шегіністер */
+  .styled-div {
+    padding: 15px;
+  }
+  
+  /* 8. Сыртқы шегіністер */
+  p {
+    margin: 20px;
+  }
+  
+  /* 9. Мәтінді орталықтандыру */
+  .styled-div {
+    text-align: center;
+  }
+  
+  /* 10. Элементті жасыру */
+  span {
+    display: none;
+  }
+  
+  /* 11. Псевдокласс: hover */
+  button:hover {
+    background-color: green;
+    color: white;
+  }
+  
+  /* 12. Псевдокласс: nth-бала */
+  ul li:nth-child(2) {
+    color: red;
+  }
+  
+  /* 13. Жалған элемент::before */
+  h3::before {
+    content: "Маңызды: ";
+  }
+  
+  /* 14. Ашықтықты өзгерту */
+  .styled-div {
+    opacity: 0.5;
+  }
+  
+  /* 15. Фондық сурет */
+  .background-section {
+    background-image: url('https://via.placeholder.com/800x400');
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+  }
+  
+  /* 16. Flexbox туралау */
+  .background-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* 17. Мәтінге арналған көлеңке */
+  h1 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* 18. Элемент үшін көлеңке */
+  .styled-div {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* 19. Сілтемелерді сәндеу */
+  a {
+    text-decoration: none;
+    color: orange;
+  }
+  
+  /* 20. Элементті орналастыру */
+  .floating-div {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+  }
+  
